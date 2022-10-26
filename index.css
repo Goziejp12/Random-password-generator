@@ -1,0 +1,64 @@
+body {
+    background-color: #1F2937;    ;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#heading2 {
+    color: #4ADF86;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+#generatePass-btn {
+    padding: 9px 17px;
+    background: #10B981;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #1F2937;
+    width: 446px;
+    margin: 30px 0 0;
+    color: #10B981;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#random-Password1, #random-Password2 {
+    width: 211px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #55F991;
+    background: #273549;
+    border-radius: 6px;
+    margin: 35px 15px;
+}
