@@ -30,6 +30,7 @@ p {
 #generatePass-btn {
     padding: 9px 17px;
     background: #10B981;
+    border: none;
     border-radius: 6px;
     font-family: 'Inter';
     font-style: normal;
@@ -52,7 +53,7 @@ input {
     justify-content: center;
 }
 
-#random-Password1, #random-Password2 {
+h3 {
     width: 211px;
     height: 39px;
     font-family: 'Inter';
