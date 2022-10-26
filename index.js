@@ -5,19 +5,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 
 let randomPassword1 = document.getElementById("random-Password1")
 let randomPassword2 = document.getElementById("random-Password2")
+let passwordLength = 16
 
 /* password generator function */
-function getPass1() {
-    let pass = " "
-    for (let i = 1; i < 16; i++) {
-        let random = Math.floor(Math.random() * characters.length)
-        pass += characters[random]  
+function getPassword() {
+    let password = " "
+    for (let i = 1; i < passwordLength; i++) {
+        let randomNUM = Math.floor(Math.random() * characters.length)
+        password += characters[randomNUM]  
     }
-    return pass
+    return password
 }
 
 /* rendering the generated passwords to the page */
 function generatePassword() {
-    randomPassword1.textContent = getPass1()
-    randomPassword2.textContent = getPass1()
+    randomPassword1.textContent = getPassword()
+    randomPassword2.textContent = getPassword()
 }
